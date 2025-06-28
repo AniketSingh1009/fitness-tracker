@@ -7,6 +7,7 @@ const {
   getWorkoutsByDate,
 } = require("../controllers/User.js");
 const { verifyToken } = require("../middleware/verifyToken.js");
+// front page
 
 const router = express.Router();
 
